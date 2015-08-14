@@ -1,0 +1,84 @@
+/*Ipads*/
+@media only screen and (max-width: 800px) and (min-width: 768px) {
+
+	.square div{
+	 	width: 95%;	
+	 	line-height: 240px;
+	 	height: 240px;
+	 	vertical-align: middle;
+	 	border: 1px solid rgba(110, 175, 78, 1);
+	 	margin: 0 auto;
+	 	font-size: 12px;}
+
+}
+
+/*Mobile*/
+@media only screen and (max-width: 767px) and (min-width: 641px)  {
+	*{
+		font-size: 10px;}
+
+	.columns{
+		padding-top: 10px;
+		padding-bottom: 10px;}
+
+	.login, .links, .story {
+		height: 19px;
+		line-height: 19px;
+		vertical-align: top;
+	 	text-align: right;}
+
+	.login .button {
+		margin-left: 0px;
+		line-height: 19px;
+		height: 19px;
+		width: 40px;
+		vertical-align: text-top;}
+
+	.button.tiny{
+		padding: 0px;
+		margin-left: 5px;
+		font-size: smaller;
+		vertical-align: top;}
+
+	.square div{
+	 	width: 95%;	
+	 	line-height: 120px;
+	 	height: 120px;
+	 	vertical-align: middle;
+	 	border: 1px solid rgba(110, 175, 78, 1);
+	 	margin: 0 auto;
+	 	font-size: 12px;}
+
+ 	.about p {
+ 		width: 75%;
+ 		font-size: smaller;
+ 		left: 10%;}
+
+ 	.photo{
+ 		padding-top: 20px;}
+
+ 	.photo2{
+ 		padding-bottom: 20px;}
+
+ 	.blue-footer p{
+ 		font-size: smaller;
+ 		width: 75%;
+ 		left: 10%;}
+
+ 	.footer a {
+ 		font-size: smaller;}
+
+ 	.footer .columns{
+ 		padding: 0px;}
+
+ 	.naf{
+ 		margin-top: 10px;}
+
+ 	.contact div{
+ 		font-size: smaller;
+ 		padding-left: 5px;}
+
+ 	.meet:nth-child(3n) {
+ 		padding-right: 2px;}
+}
+

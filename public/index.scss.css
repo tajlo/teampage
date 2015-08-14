@@ -1,0 +1,9 @@
+* {
+	font-size: 12px;
+	font-family: 'Arial';
+	font-weight: bold;
+}
+
+.header span{
+	margin-left: 10px;
+}
